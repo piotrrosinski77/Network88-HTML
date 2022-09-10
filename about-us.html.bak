@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Network88 - your way to check the speed</title>
+<link type="text/css" rel="stylesheet" href="css/network88.css"/>
+</head>
+<body>
+<h1><i>Network88</i></h1>
+<h2>About us</h2>
+<p>Network88 is an Android app that lets you check the speed of your Internet connection and has many other useful features.</p> It's a student project that has turned into a working app.</p>
+<h3>Write us a message</h3>
+<form>
+<input type="text" placeholder="Name"><br>
+<input type="text" placeholder="Email"><br>
+</form>
+</body>
+</html>
