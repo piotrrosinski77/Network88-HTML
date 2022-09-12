@@ -6,15 +6,13 @@
 		<meta name="description" content="Write a message to the Network88 development team."/>
 		<meta name="keywords" content="Network88, Speedtest, Android, Application, Mobile development, Share your ideas, Idea, Ideas, Contact, Mail, Message"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-		<link type="text/css" rel="stylesheet" href="css/Network88.css"/>
+		<link type="text/css" rel="stylesheet" href="css/network88.css"/>
 	</head>
 	<body>
 		<nav>
 			<ul>
-				<li><a href="index.html">Main website</a></li>
-				</br>
-				<li><a href="about-us.html">About us</a></li>
-				</br>
+				<li><a href="index.html" target="_blank">Main website</a></li>
+				<li><a href="about-us.html" target="_blank">About us</a></li>
 				<li><a href="features.html">Features of the app</a></li>
 			</ul>
 		</nav>
