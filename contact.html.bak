@@ -3,12 +3,21 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>Network88 - Write us a message</title>
-		<meta name="description" content="Opis strony"/>
+		<meta name="description" content="Write a message to the Network88 development team."/>
 		<meta name="keywords" content="Network88, Speedtest, Android, Application, Mobile development, Share your ideas, Idea, Ideas, Contact, Mail, Message"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<link type="text/css" rel="stylesheet" href="css/Network88.css"/>
 	</head>
 	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Main website</a></li>
+				</br>
+				<li><a href="features.html">Features of the app</a></li>
+				</br>
+				<li><a href="about-us.html">About us</a></li>
+			</ul>
+		</nav>
 		<h1><i>Network88</i></h1>
 		<h2>Share your ideas!</h2>
 		Network88 is new on the market and can be a better app thus if you have any suggestions that may help in developing the app get us know about it.
