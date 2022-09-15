@@ -19,13 +19,16 @@
 		<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p>
 		<h3>Features</h3>
 		<p class="text">The app is being developed. Get ready for <strong>new, exciting features </strong>soon!<br/>Get to know new features today, here are some of them:<br/></p><h3>Check this out!</h3>
-		<div2>
+		<list>
 			<ul>
 				<li>Measure your <strong>download speed!</strong></li>
 				<li>Measure your <strong>upload speed!</strong></li>
 				<li>Unveil your <strong>IP address!</strong></li>
 				<li>Check your <strong>Internet mask!</strong></li>
 			</ul>
-		</div2>
+		</list>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/yQThMUn_UmM" title="YouTube video player" frameborder="4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+		</iframe>
 	</body>
 </html>
+
