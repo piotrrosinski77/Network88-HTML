@@ -19,16 +19,15 @@ p.title {
 	background-color: #336E7F;
 	font-size: 28px;
 	font-family: Tahoma;
-	font-weight: 500;
-	text-shadow: 1px 1px;
+	font-weight: bold;
+	text-shadow: black 3px 3px;
 }
 
 p.title::before {
 	color: White;
 	font-family: Tahoma;
 	font-weight: bold;
-	font-underline: 100;
-	content: "NETWORK88";
+	content: "Network88";
 }
 
 p.subtitle {
@@ -47,7 +46,8 @@ nav ul {
 	font-family: Tahoma;
 	font-size: 24px;
 	font-weight: bold;
-	padding: 16px;
+	text-shadow: black 2px 2px; 
+	padding: 12px;
 }
 
 nav ul li {

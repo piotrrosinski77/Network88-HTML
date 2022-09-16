@@ -10,15 +10,14 @@
 	</head>
 	<body>
 		<p class="title"> - Your way to check the speed!</p>
-		<img src="imagines/wifi_icon.png" alt="Network88's icon" height="200px" width="240px" border="2px"/></br>
+		<img src="imagines/wifi_icon.png" alt="Network88's icon" height="300px" width="320px" border="2px"/></br>
 		<div>
 			<ul>
-				<li><a href="about-us.html" target="_blank"><strong>About us</strong> - click to open</a></li></br>
+				<li><a href="index.html" target="_blank"><strong>Main website</strong> - click to open</a></li></br>
 				<li><a href="features.html" target="_blank"><strong>Features of the app</strong> - click to open</a></li></br>
+				<li><a href="about-us.html" target="_blank"><strong>About us</strong> - click to open</a></li></br>
 				<li><a href="contact.html" target="_blank"><strong>Get in touch with us</strong> - click to open</a></li></br>
 			</ul>
 		</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/yQThMUn_UmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-			</iframe>
 	</body>
 </html>
