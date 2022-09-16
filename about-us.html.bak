@@ -13,13 +13,13 @@
 			<ul>
 				<li><a href="index.html" target="_blank">Main website</a></li>
 				<li><a href="features.html" target="_blank">Features of the app</a></li>
+				<li class="selected">About us</li>
 				<li><a href="contact.html" target="_blank">Get in touch with us</a></li>
 			</ul>
 		</nav>
-		
 		<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p>
 		<h3>About us</h3>
-		<p class="text">Network88 is an Android app that lets you check the speed of your Internet connection and has many other useful features. </br>
+		<p class="text">Network88 is an Android app that lets you check the speed of your Internet connection and has many other useful features.</br>
 		It's a student project that has turned into a working app.</p>
 	</body>
 </html>

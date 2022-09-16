@@ -19,23 +19,28 @@ p.title {
 	background-color: #336E7F;
 	font-size: 28px;
 	font-family: Tahoma;
-	font-weight: 500;
-	text-shadow: 1px 1px;
+	font-weight: bold;
+	text-shadow: Black 0.1em 0.1em 0.2em;
 }
 
 p.title::before {
 	color: White;
 	font-family: Tahoma;
 	font-weight: bold;
-	content: "NETWORK88";
+	content: "Network88";
 }
 
 p.subtitle {
 	font-size: 24px;
+	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
 p.text {
 	font-size: 20px;
+}
+
+h3.header {
+	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
 nav ul {
@@ -46,6 +51,7 @@ nav ul {
 	font-family: Tahoma;
 	font-size: 24px;
 	font-weight: bold;
+	text-shadow: Black 0.1em 0.1em 0.2em; 
 	padding: 16px;
 }
 
@@ -58,19 +64,41 @@ nav ul li {
 
 nav ul li:last-child {
 	border-right: none;
-}
+} 
 
-nav ul li a {
+nav ul li, nav ul li a {
 	text-decoration: none;
 	color: #FFFFFF;
 }
 
-div ul li a {
+nav li.selected {
+	color: #000000;
+	text-shadow: White 0.1em 0.1em 0.2em;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	color: Black;
+	text-shadow: White 0.1em 0.1em 0.2em;
+}
+
+div ul li, div ul li a {
 	text-decoration: none;
+	text-shadow: White 0.1em 0.1em 0.2em;
 	color: #111111;
 	font-size: 22px;
 }
 
+div li.selected {
+	color: #FFFFFF;
+	text-shadow: Black 0.1em 0.1em 0.2em;
+}
+
+div ul li a:hover {
+	text-decoration: underline;
+	color: White;
+	text-shadow: Black 0.1em 0.1em 0.2em;
+}
 list ul {
 	font-size: 20px;
 }
