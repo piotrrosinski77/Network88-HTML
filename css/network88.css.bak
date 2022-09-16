@@ -11,10 +11,6 @@ body {
 	padding-right: 24px;
 }
 
-html {
-	text-shadow: 1px 1px;
-}
-
 p.title {
 	border: 8px solid #00AFEB;
 	border-radius: 20px;
@@ -24,7 +20,7 @@ p.title {
 	font-size: 28px;
 	font-family: Tahoma;
 	font-weight: bold;
-	text-shadow: black 3px 3px;
+	text-shadow: Black 3px 3px;
 }
 
 p.title::before {
@@ -36,11 +32,15 @@ p.title::before {
 
 p.subtitle {
 	font-size: 24px;
-	text-shadow: white 1px 1px;
+	text-shadow: White 1px 1px;
 }
 
 p.text {
 	font-size: 20px;
+}
+
+h3.header {
+	text-shadow: White 1px 1px;
 }
 
 nav ul {
@@ -51,7 +51,7 @@ nav ul {
 	font-family: Tahoma;
 	font-size: 24px;
 	font-weight: bold;
-	text-shadow: black 2px 2px; 
+	text-shadow: Black 2px 2px; 
 	padding: 16px;
 }
 
@@ -64,11 +64,22 @@ nav ul li {
 
 nav ul li:last-child {
 	border-right: none;
-}
+} 
 
 nav ul li, nav ul li a {
 	text-decoration: none;
 	color: #FFFFFF;
+}
+
+nav li.selected {
+	color: #000000;
+	text-shadow: White 1px 1px;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	color: Black;
+	text-shadow: White 1px 1px;
 }
 
 div ul li, div ul li a {
@@ -78,6 +89,16 @@ div ul li, div ul li a {
 	font-size: 22px;
 }
 
+div li.selected {
+	color: #FFFFFF;
+	text-shadow: Black 1px 1px;
+}
+
+div ul li a:hover {
+	text-decoration: underline;
+	color: White;
+	text-shadow: Black 1px 1px;
+}
 list ul {
 	font-size: 20px;
 }
@@ -96,14 +117,4 @@ input.submit {
 	font-size: 20px;
 	color: White;
 	background-color: #336E7F;
-}
-
-nav li.selected {
-	color: #000000;
-	text-shadow: white 1px 1px;
-}
-
-div li.selected {
-	color: #FFFFFF;
-	text-shadow: black 1px 1px;
 }
