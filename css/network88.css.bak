@@ -11,6 +11,10 @@ body {
 	padding-right: 24px;
 }
 
+html {
+	text-shadow: 1px 1px;
+}
+
 p.title {
 	border: 8px solid #00AFEB;
 	border-radius: 20px;
@@ -32,6 +36,7 @@ p.title::before {
 
 p.subtitle {
 	font-size: 24px;
+	text-shadow: white 1px 1px;
 }
 
 p.text {
@@ -47,7 +52,7 @@ nav ul {
 	font-size: 24px;
 	font-weight: bold;
 	text-shadow: black 2px 2px; 
-	padding: 12px;
+	padding: 16px;
 }
 
 nav ul li {
@@ -61,13 +66,14 @@ nav ul li:last-child {
 	border-right: none;
 }
 
-nav ul li a {
+nav ul li, nav ul li a {
 	text-decoration: none;
 	color: #FFFFFF;
 }
 
-div ul li a {
+div ul li, div ul li a {
 	text-decoration: none;
+	text-shadow: 1px 1px;
 	color: #111111;
 	font-size: 22px;
 }
@@ -90,4 +96,14 @@ input.submit {
 	font-size: 20px;
 	color: White;
 	background-color: #336E7F;
+}
+
+nav li.selected {
+	color: #000000;
+	text-shadow: white 1px 1px;
+}
+
+div li.selected {
+	color: #FFFFFF;
+	text-shadow: black 1px 1px;
 }
