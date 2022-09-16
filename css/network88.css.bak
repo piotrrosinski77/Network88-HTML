@@ -20,7 +20,7 @@ p.title {
 	font-size: 28px;
 	font-family: Tahoma;
 	font-weight: bold;
-	text-shadow: Black 3px 3px;
+	text-shadow: Black 0.1em 0.1em 0.2em;
 }
 
 p.title::before {
@@ -32,7 +32,7 @@ p.title::before {
 
 p.subtitle {
 	font-size: 24px;
-	text-shadow: White 1px 1px;
+	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
 p.text {
@@ -40,7 +40,7 @@ p.text {
 }
 
 h3.header {
-	text-shadow: White 1px 1px;
+	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
 nav ul {
@@ -51,7 +51,7 @@ nav ul {
 	font-family: Tahoma;
 	font-size: 24px;
 	font-weight: bold;
-	text-shadow: Black 2px 2px; 
+	text-shadow: Black 0.1em 0.1em 0.2em; 
 	padding: 16px;
 }
 
@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 div ul li, div ul li a {
 	text-decoration: none;
-	text-shadow: 1px 1px;
+	text-shadow: White 1px 1px;
 	color: #111111;
 	font-size: 22px;
 }
