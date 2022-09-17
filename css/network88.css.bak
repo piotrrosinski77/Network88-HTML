@@ -73,31 +73,31 @@ nav ul li, nav ul li a {
 
 nav li.selected {
 	color: #000000;
-	text-shadow: White 1px 1px;
+	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
 nav ul li a:hover {
 	text-decoration: underline;
 	color: Black;
-	text-shadow: White 1px 1px;
+	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
 div ul li, div ul li a {
 	text-decoration: none;
-	text-shadow: White 1px 1px;
+	text-shadow: White 0.1em 0.1em;
 	color: #111111;
 	font-size: 22px;
 }
 
 div li.selected {
 	color: #FFFFFF;
-	text-shadow: Black 1px 1px;
+	text-shadow: Black 0.1em 0.1em 0.2em;
 }
 
 div ul li a:hover {
 	text-decoration: underline;
 	color: White;
-	text-shadow: Black 1px 1px;
+	text-shadow: Black 0.1em 0.1em 0.2em;
 }
 list ul {
 	font-size: 20px;
