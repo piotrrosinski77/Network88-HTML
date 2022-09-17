@@ -13,13 +13,14 @@
 			<ul>
 				<li><a href="index.html" target="_blank">Main website</a></li>
 				<li><a href="features.html" target="_blank">Features of the app</a></li>
+				<li><a href="releases.html" target="_blank">App releases</a></li>
 				<li><a href="about-us.html" target="_blank">About us</a></li>
 				<li class="selected">Get in touch with us</li>
 			</ul>
 		</nav>
-		<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p>
+		<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p></br>
 		<h3 class="header">Share your ideas!</h3>
-		<p class="text">Network88 is new on the market and can be a better app thus if you have any suggestions that may help in developing the app get us know about it.</p>
+		<p class="text">Network88 is new on the market and can be a better app thus if you have any suggestions that may help in developing the app get us know about it.</p></br>
 		<h3 class="header">Write us a message</h3>
 		<form>
 			<input type="text" placeholder="Name" required></br>

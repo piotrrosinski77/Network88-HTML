@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 div ul li, div ul li a {
 	text-decoration: none;
-	text-shadow: White 0.1em 0.1em;
+	text-shadow: White 0.1em 0.1em 0.2em;
 	color: #111111;
 	font-size: 22px;
 }
@@ -117,4 +117,31 @@ input.submit {
 	font-size: 20px;
 	color: White;
 	background-color: #336E7F;
+}
+
+table {
+	border: 2px solid #FFFFFF;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+	border: 2px solid #000000;
+}
+
+th {
+	font-size: 24px;
+	text-shadow: #FFFFFF 0.1em 0.1em 0.2em;
+	padding: 16px;
+	background-color: #75F0F7;
+}
+
+td {
+	font-size: 20px;
+	background-color: #336E7F;
+}
+
+td.changes {
+	font-size: 19px;
 }
