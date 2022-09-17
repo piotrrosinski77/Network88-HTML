@@ -20,7 +20,7 @@
 		<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p>
 		<h3 class="header">Share your ideas!</h3>
 		<p class="text">Network88 is new on the market and can be a better app thus if you have any suggestions that may help in developing the app get us know about it.</p>
-		<h3>Write us a message</h3>
+		<h3 class="header">Write us a message</h3>
 		<form>
 			<input type="text" placeholder="Name" required></br>
 			<input type="email" placeholder="Email" required></br>

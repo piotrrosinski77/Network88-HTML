@@ -2,9 +2,9 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>Network88 - About us</title>
-		<meta name="description" content="Information about the author of the app Network88"/>
-		<meta name="keywords" content="Network88, Speedtest, Android, Application, Mobile development, About us, Student project"/>
+		<title>Network88 - Releases</title>
+		<meta name="description" content="Information about the all releases of the app Network88"/>
+		<meta name="keywords" content="Network88, Speedtest, Android, Application, Mobile development, Releases, Version, Versions"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<link type="text/css" rel="stylesheet" href="css/network88.css"/>
 	</head>
@@ -13,7 +13,7 @@
 			<ul>
 				<li><a href="index.html" target="_blank">Main website</a></li>
 				<li><a href="features.html" target="_blank">Features of the app</a></li>
-				<li><a href="releases.html" target="_blank">App releases</a></li>
+				<li class="selected" href="releases.html">App releases</li>
 				<li class="selected">About us</li>
 				<li><a href="contact.html" target="_blank">Get in touch with us</a></li>
 			</ul>
