@@ -13,13 +13,14 @@
 			<ul>
 				<li><a href="index.html" target="_blank">Main website</a></li>
 				<li class="selected">Features of the app</li>
+				<li><a href="releases.html" target="_blank">App releases</a></li>
 				<li><a href="about-us.html" target="_blank">About us</a></li>
 				<li><a href="contact.html" target="_blank">Get in touch with us</a></li>
 			</ul>
-		</nav>
-		<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p>
+		</nav></br>
+		<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p></br>
 		<h3 class="header">Features</h3>
-		<p class="text">The app is being developed. Get ready for <strong>new, exciting features </strong>soon!<br/>Get to know new features today, here are some of them:<br/></p><h3 class="header">Check this out!</h3>
+		<p class="text">The app is being developed. Get ready for <strong>new, exciting features </strong>soon!<br/>Get to know new features today, here are some of them:<br/></p><h3 class="header"></br>Check this out!</h3>
 		<list>
 			<ul>
 				<li>Measure your <strong>download speed!</strong></li>
@@ -28,7 +29,8 @@
 				<li>Check your <strong>Internet mask!</strong></li>
 			</ul>
 		</list>
-		<iframe width="750" height="475" src="https://www.youtube.com/embed/jvYTjksCsps" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</br>
+		<iframe width="750" height="475" src="https://www.youtube.com/embed/jvYTjksCsps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</body>
 </html>
 
