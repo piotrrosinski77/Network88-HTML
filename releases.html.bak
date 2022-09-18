@@ -33,13 +33,13 @@
 						<th>Release</th><th>Date</th><th>Changes</th>
 					</tr>
 					<tr>
-						<td>1.2</td><td>30.08.22</td><td class="changes">Upload function from the library:'' added.</td>
+						<td>1.2</td><td>30.08.22</td><td class="changes">Upload function from the library: <i>'bmartel_jspeedtest'</i> added.</td>
 					</tr>
 					<tr>
-						<td>1.1</td><td>18.08.22</td><td class="changes">App is based now on the library:'', download measurement implemented.</td>
+						<td>1.1</td><td>18.08.22</td><td class="changes">App is based now on the library: 'bmartel_jspeedtest', download measurement implemented.</td>
 					</tr>
 					<tr>
-						<td>1.0</td><td>18.01.22</td><td class="changes">Download/upload speed measured on the basis of system library.</td>
+						<td>1.0</td><td>18.01.22</td><td class="changes">Download/upload speed measured on the basis of the system library.</td>
 					</tr>
 				</table><br>
 			</section>
