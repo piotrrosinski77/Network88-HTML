@@ -83,23 +83,23 @@ nav ul li a:active {
 	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
-div ul li, div ul li a {
+article ul li, article ul li a {
 	text-decoration: none;
 	text-shadow: White 0.1em 0.1em 0.2em;
 	color: #111111;
 	font-size: 22px;
 }
 
-div li.selected {
+article li.selected {
 	color: #FFFFFF;
 	text-shadow: Black 0.1em 0.1em 0.2em;
 }
 
-div ul li a:hover {
+article ul li a:hover {
 	text-decoration: underline;
 }
 
-div ul li a:active {
+article ul li a:active {
 	text-decoration: underline;
 	color: White;
 	text-shadow: Black 0.1em 0.1em 0.2em;
@@ -126,13 +126,14 @@ input.submit {
 }
 
 table {
-	width: 100%;
+	height: 100px;
+	width: 75%;
 	border: 2px solid #FFFFFF;
 	border-collapse: collapse;
 }
 
 th, td {
-	padding: 8px;
+	padding: 12px;
 	text-align: left;
 	border: 2px solid #000000;
 }
@@ -140,7 +141,6 @@ th, td {
 th {
 	font-size: 24px;
 	text-shadow: #FFFFFF 0.1em 0.1em 0.2em;
-	padding: 16px;
 	background-color: #75F0F7;
 }
 
@@ -150,7 +150,7 @@ td {
 }
 
 td.changes {
-	font-size: 19px;
+	font-size: 18px;
 }
 
 p.contact a {
@@ -188,4 +188,8 @@ a.link:active {
 p.name {
 	font-size: 18px;
 	color: #FFFFFF;
+}
+
+img.wifi_icon {
+	border-radius: 16px;
 }
