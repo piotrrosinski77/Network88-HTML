@@ -21,10 +21,18 @@
 		<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p></br>
 		<h3 class="header">About us</h3>
 		<p class="text">Network88 is an Android app that lets you check the speed of your Internet connection and has many other useful features.</br>
-		It's a student project that has turned into a working app.</p>
-		<footer></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-			<p class="copyright">© Network88. All rights reserved.</p>
-			<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail</a></p>
+		It's a student project that has turned into a working app.</p></br>
+		<h3 class="header">Github repository</h3>
+		<img src="imagines/Github.png" height="200px" weight="200px" alt="Github's logo"/>
+		<p class="text">Below you can find the author of the app and links to the Github repository where Network88 is placed.</p>
+		<h3 class="header">Network88's repository:</h3>
+		<a class="link" href="https://github.com/piotrrosinski77/Network88" target="_blank">https://github.com/piotrrosinski77/Network88</a>
+		<h3 class="header">Developer:</h3>
+		<img src="imagines/author_photo.jpg" alt="Photo of the developer" hight="75px" width="75px"/>
+		<p class="name">Piotr Rosiński</p>
+		<footer>
+			<p class="copyright">© Network88. All rights reserved. 2022</p>
+			<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail.com</a></p>
 		</footer>
 	</body>
 </html>

@@ -31,9 +31,9 @@
 		</list>
 		</br>
 		<iframe width="750" height="475" src="https://www.youtube.com/embed/jvYTjksCsps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<footer></br>
-			<p class="copyright">© Network88. All rights reserved.</p>
-			<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail</a></p>
+		<footer>
+			<p class="copyright">© Network88. All rights reserved. 2022</p>
+			<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail.com</a></p>
 		</footer>
 	</body>
 </html>

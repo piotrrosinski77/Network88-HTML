@@ -27,9 +27,9 @@
 			<input type="email" placeholder="Email" required></br>
 			<input type="text" placeholder="Write your message..." required></br>
 			<input type="submit" value="SEND" class="submit">
-		</form>		<footer></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-			<p class="copyright">© Network88. All rights reserved.</p>
-			<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail</a></p>
+		</form>		<footer></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+			<p class="copyright">© Network88. All rights reserved. 2022</p>
+			<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail.com</a></p>
 		</footer>
 	</body>
 </html>

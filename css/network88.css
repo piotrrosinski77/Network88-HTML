@@ -23,11 +23,8 @@ p.title {
 	text-shadow: Black 0.1em 0.1em 0.2em;
 }
 
-p.title::before {
-	color: White;
-	font-family: Tahoma;
-	font-weight: bold;
-	content: "Network88";
+sup {
+	font-size: 36px;
 }
 
 p.subtitle {
@@ -176,4 +173,19 @@ footer p.contact {
 
 footer p.copyright {
 	float: left;
+}
+
+a.link	{
+	font-size: 18px;
+	color: #FFFFFF
+}
+
+a.link:active {
+	color: #000000;
+	text-decoration: underline;
+}
+
+p.name {
+	font-size: 18px;
+	color: #FFFFFF;
 }
