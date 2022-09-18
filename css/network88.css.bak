@@ -78,6 +78,10 @@ nav li.selected {
 
 nav ul li a:hover {
 	text-decoration: underline;
+}
+
+nav ul li a:active {
+	text-decoration: underline;
 	color: Black;
 	text-shadow: White 0.1em 0.1em 0.2em;
 }
@@ -120,6 +124,7 @@ input.submit {
 }
 
 table {
+	width: 100%;
 	border: 2px solid #FFFFFF;
 	border-collapse: collapse;
 }
@@ -144,4 +149,26 @@ td {
 
 td.changes {
 	font-size: 19px;
+}
+
+p.contact a {
+	text-decoration: none;
+	color: #000000;
+}
+
+p.contact a:hover{
+	text-decoration: underline;
+}
+
+p.contact a:active {
+	text-decoration: underline;
+	color: white;
+}
+
+footer p.contact {
+	text-align: right;
+}
+
+footer p.copyright {
+	float: left;
 }

@@ -17,7 +17,7 @@
 				<li><a href="about-us.html" target="_blank">About us</a></li>
 				<li><a href="contact.html" target="_blank">Get in touch with us</a></li>
 			</ul>
-		</nav></br>
+		</nav>
 		<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p></br>
 		<h3 class="header">Features</h3>
 		<p class="text">The app is being developed. Get ready for <strong>new, exciting features </strong>soon!<br/>Get to know new features today, here are some of them:<br/></p><h3 class="header"></br>Check this out!</h3>
@@ -31,6 +31,10 @@
 		</list>
 		</br>
 		<iframe width="750" height="475" src="https://www.youtube.com/embed/jvYTjksCsps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<footer></br>
+			<p class="copyright">© Network88. All rights reserved.</p>
+			<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail</a></p>
+		</footer>
 	</body>
 </html>
 
