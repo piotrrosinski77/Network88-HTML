@@ -9,10 +9,11 @@
 		<link type="text/css" rel="stylesheet" href="css/network88.css"/>
 	</head>
 	<body>
-		</br>
-		<p class="title"> - Your way to check the speed!</p>
-		<img id="first-animation" onclick="swapImage()" src="imagines/wifi_icon.png" alt="Network88's icon" height="300px" width="340px" border="2px"/></br></br>
-		<div>
+		<header>
+			<p class="title"> <sup>Network</sup>88 - Your way to check the speed!</p></br>
+			<img class="wifi_icon" id="first-animation" onclick="swapImage()" src="imagines/wifi_icon.png" alt="Network88's icon" height="300px" width="340px" border="2px"/></br></br>
+		</header>
+		<article>
 			<ul>
 				<li class="selected"><strong>Main website</strong> -  you are here</li></br>
 				<li><a href="features.html" target="_blank"><strong>Features of the app</strong> - click to open</a></li></br>
@@ -20,27 +21,31 @@
 				<li><a href="about-us.html" target="_blank"><strong>About us</strong> - click to open</a></li></br>
 				<li><a href="contact.html" target="_blank"><strong>Get in touch with us</strong> - click to open</a></li></br>
 			</ul>
-		</div>
+		</article>
 		<script>
-		function swapImage() {	
-		var imageDisplayed = document.getElementById('first-animation');
-		if (imageDisplayed.src.match("imagines/wifi_icon.png")) {
-		imageDisplayed.src = "imagines/wifi_icon1.png";
-		wait();
-		}
-		if (imageDisplayed.src.match("imagines/wifi_icon1.png")) {
-		imageDisplayed.src = "imagines/wifi_icon2.png";
-		wait();
-		}
-		if (imageDisplayed.src.match("imagines/wifi_icon2.png")) {
-		imageDisplayed.src = "imagines/wifi_icon3.png";
-		wait();
-		}
-		if (imageDisplayed.src.match("imagines/wifi_icon3.png")) {
-		imageDisplayed.src = "imagines/wifi_icon.png";
-		wait();
-			}
-		}
+			function swapImage() {	
+				var imageDisplayed = document.getElementById('first-animation');
+				if (imageDisplayed.src.match("imagines/wifi_icon.png")) {
+					imageDisplayed.src = "imagines/wifi_icon1.png";
+					wait();
+				}
+				if (imageDisplayed.src.match("imagines/wifi_icon1.png")) {
+					imageDisplayed.src = "imagines/wifi_icon2.png";
+					wait();
+				}
+					if (imageDisplayed.src.match("imagines/wifi_icon2.png")) {
+					imageDisplayed.src = "imagines/wifi_icon3.png";
+				wait();
+				}
+					if (imageDisplayed.src.match("imagines/wifi_icon3.png")) {
+					imageDisplayed.src = "imagines/wifi_icon.png";
+				wait();
+					}
+				}
 		</script>
+	<footer></br></br></br></br></br></br></br></br>
+		<p class="copyright">© 2022 Network88. All rights reserved.</p>
+		<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail.com</a></p>
+	</footer>
 	</body>
 </html>

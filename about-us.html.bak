@@ -9,18 +9,40 @@
 		<link type="text/css" rel="stylesheet" href="css/network88.css"/>
 	</head>
 	<body>
-		<nav>
-			<ul>
-				<li><a href="index.html" target="_blank">Main website</a></li>
-				<li><a href="features.html" target="_blank">Features of the app</a></li>
-				<li><a href="releases.html" target="_blank">App releases</a></li>
-				<li class="selected">About us</li>
-				<li><a href="contact.html" target="_blank">Get in touch with us</a></li>
-			</ul>
-		</nav>
-		<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p>
-		<h3 class="header">About us</h3>
-		<p class="text">Network88 is an Android app that lets you check the speed of your Internet connection and has many other useful features.</br>
-		It's a student project that has turned into a working app.</p>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html" target="_blank">Main website</a></li>
+					<li><a href="features.html" target="_blank">Features of the app</a></li>
+					<li><a href="releases.html" target="_blank">App releases</a></li>
+					<li class="selected">About us</li>
+					<li><a href="contact.html" target="_blank">Get in touch with us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<section>
+				<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p></br>
+			</section>
+			<section>
+				<h3 class="header">About us</h3>
+				<p class="text">Network88 is an Android app that lets you check the speed of your Internet connection and has many other useful features.</br>
+				It's a student project that has turned into a working app.</p>
+			</section>
+			<section>
+				<h3 class="header">Github repository</h3>
+				<img src="imagines/Github.png" height="200px" weight="200px" alt="Github's logo"/>
+				<p class="text">Below you can find the author of the app and links to the Github repository where Network88 is placed.</p>
+				<h3 class="header">Network88's repository:</h3>
+				<a class="link" href="https://github.com/piotrrosinski77/Network88" target="_blank">https://github.com/piotrrosinski77/Network88</a>
+				<h3 class="header">Developer:</h3>
+				<img src="imagines/author_photo.jpg" alt="Photo of the developer" hight="75px" width="75px"/>
+				<p class="name">Piotr Rosiński</p>
+			</section>
+		</article>
+		<footer>
+			<p class="copyright">© 2022 Network88. All rights reserved.</p>
+			<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail.com</a></p>
+		</footer>
 	</body>
 </html>
