@@ -21,13 +21,15 @@
 			</nav>
 		</header>
 		<article>
-			<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p></br>
 			<section>
-				<h3 class="header">Features</h3>
-				<p class="text">The app is being developed. Get ready for <strong>new, exciting features </strong>soon!<br/>Get to know new features today, here are some of them:<br/></p>
+				<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p></br>
 			</section>
 			<section>
-				<h3 class="header"></br>Check this out!</h3>
+				<h3 class="header">Features</h3>
+				<p class="text">The app is being developed. Get ready for <strong>new, exciting and useful</strong> features soon!<br/>Let yourself know the new features today, here are some of them:<br/></p>
+			</section>
+			<section>
+				<h3 class="header">Check this out!</h3>
 				<list>
 					<ul>
 						<li>Measure your <strong>download speed!</strong></li>

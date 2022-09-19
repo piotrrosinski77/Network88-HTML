@@ -22,14 +22,14 @@
 		</header>
 		<article>
 			<section>
-				<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p></br>
+				<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p>
 			<section>
 			<section>
 				<h3 class="header">Share your ideas!</h3>
-				<p class="text">Network88 is new on the market and can be a better app thus if you have any suggestions that may help in developing the app get us know about it.</p></br>
+				<p class="text">Network88 is new on the market and can be a better app thus if you have any suggestions that may help in developing the app let us know about it.</p></br>
 			<section>
 			<h3 class="header">Send email or message through the page</h3>
-			<p class="text">You can use either the form below or you can write an email - just click on the email adress:</p>
+			<p class="text">You can use either the form below or you can write an email - just click on the following email adress:</p>
 			<p class="mail">
 			@<a href="mailto:Network88app@gmail.com">Network88app@gmail.com</a></p></br>
 			</section>
@@ -44,9 +44,9 @@
 				</form>
 				</section>
 		</article>
-		<footer></br></br></br></br></br></br>
+		<footer></br></br></br></br></br></br></br></br></br>
 					<p class="copyright">© 2022 Network88. All rights reserved.</p>
-					<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail.com</a></p>
+					<p class="contact"><a href="mailto:Network88app@gmail.com" target="_blank">Contact: Network88app@gmail.com</a></p>
 		</footer>
 	</body>
 </html>

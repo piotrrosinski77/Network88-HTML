@@ -22,11 +22,11 @@
 		</header>
 		<article>
 			<section>
-				<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p></br>
+				<p class="subtitle"><strong>Network88</strong> - Your way to check the speed!</p>
 			</section>
 			<section>
 				<h3 class="header">Releases</h3>
-				<p class="text">In the table below releases can be found. Each release contains a date and a short description of the changes.</p></br>
+				<p class="text">In the table below releases can be found. Each release contains a date and a short description of the changes.</p>
 				<h3 class="header">All releases</h3></br>
 				<table>
 					<tr>
@@ -36,7 +36,7 @@
 						<td>1.2</td><td>30.08.22</td><td class="changes">Upload function from the library: <i>'bmartel_jspeedtest'</i> added.</td>
 					</tr>
 					<tr>
-						<td>1.1</td><td>18.08.22</td><td class="changes">App is based now on the library: 'bmartel_jspeedtest', download measurement implemented.</td>
+						<td>1.1</td><td>18.08.22</td><td class="changes">App is based now on the library: <i>'bmartel_jspeedtest'</i>, download measurement implemented.</td>
 					</tr>
 					<tr>
 						<td>1.0</td><td>18.01.22</td><td class="changes">Download/upload speed measured on the basis of the system library.</td>
@@ -48,7 +48,7 @@
 			<p class="text">Network88 will be available in Google Play soon. All relevant information are posted here. Stay tuned!</p>
 			</section>
 		</article>
-		<footer></br></br></br></br></br></br></br></br></br>
+		<footer></br></br></br></br></br></br></br></br></br></br></br>
 			<p class="copyright">© 2022 Network88. All rights reserved.</p>
 			<p class="contact"><a href="mailto:Network88app@gmail.com">Contact: Network88app@gmail.com</a></p>
 		</footer>

@@ -28,7 +28,7 @@ sup {
 }
 
 p.subtitle {
-	font-size: 24px;
+	font-size: 20px;
 	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
@@ -37,6 +37,7 @@ p.text {
 }
 
 h3.header {
+	font-size: 22px;
 	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
@@ -68,9 +69,10 @@ nav ul li, nav ul li a {
 	color: #FFFFFF;
 }
 
-nav li.selected {
+nav ul li.selected {
 	color: #000000;
 	text-shadow: White 0.1em 0.1em 0.2em;
+	text-decoration: none;
 }
 
 nav ul li a:hover {
@@ -83,7 +85,7 @@ nav ul li a:active {
 	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
-article ul li, article ul li a {
+article ul li a {
 	text-decoration: none;
 	text-shadow: White 0.1em 0.1em 0.2em;
 	color: #111111;
@@ -176,6 +178,7 @@ p.mail a {
 
 p.mail {
 	font-size: 42px;
+	font-weight: bold;
 }
 
 footer p.contact {
