@@ -118,14 +118,17 @@ form {
 
 form input {
 	font-size: 22px;
-	color: Black;
 	background-color: #75F0F7;
+	width: 360px;
 }
 
 input.submit {
 	font-size: 22px;
 	color: White;
 	background-color: #336E7F;
+	width: 85px;
+    height: 30px;
+	margin-left: 283px;
 }
 
 table {
@@ -209,4 +212,12 @@ p.name {
 
 img.wifi_icon {
 	border-radius: 16px;
+}
+
+textarea {
+	font-size: 22px;
+	background-color: #75F0F7;
+    width: 361px;
+    height: 100px;
+	
 }
