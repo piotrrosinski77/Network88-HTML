@@ -1,6 +1,6 @@
 body {
 	background-color: #1CA39D;
-	font-family: Courier, "Courier New", monospace;
+	font-family: Verdana, Tahoma, monospace;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1440px;
@@ -11,20 +11,21 @@ body {
 	padding-right: 24px;
 }
 
+
 p.title {
 	border: 8px solid #00AFEB;
 	border-radius: 20px;
 	padding: 12px;
 	color: #FFFFFF;
 	background-color: #336E7F;
-	font-size: 28px;
+	font-size: 36px;
 	font-family: Menlo, Consolas, monospace;
 	font-weight: bold;
 	text-shadow: Black 0.1em 0.1em 0.2em;
 }
 
 sup {
-	font-size: 36px;
+	font-size: 56px;
 }
 
 p.subtitle {
@@ -47,7 +48,7 @@ nav ul {
 	border: 8px solid #00AFEB;
 	border-radius: 20px;
 	font-family: Menlo, Consolas, monospace;
-	font-size: 26px;
+	font-size: 38px;
 	font-weight: bold;
 	text-shadow: Black 0.1em 0.1em 0.2em; 
 	padding: 16px;
@@ -85,7 +86,7 @@ nav ul li a:active {
 	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
-article ul li a {
+article section ul li a {
 	text-decoration: none;
 	text-shadow: White 0.1em 0.1em 0.2em;
 	color: #111111;
@@ -185,14 +186,26 @@ p.mail {
 	font-weight: bold;
 }
 
+footer p {
+	margin-bottom: 1em;
+}
+
 footer p.contact {
-	text-align: right;
+	float: right;
 	font-size: 16px;
 }
 
 footer p.copyright {
 	float: left;
 	font-size: 16px;
+}
+
+header div {
+	font-family: Consolas, Menlo, monospace;
+	font-size: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: Black 0.1em 0.1em 0.4em;
 }
 
 a.link	{
