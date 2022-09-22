@@ -5,7 +5,7 @@
 		<title>Network88 - Releases</title>
 		<meta name="description" content="Information about the all releases of the app Network88"/>
 		<meta name="keywords" content="Network88, Speedtest, Android, Application, Mobile development, Releases, Version, Versions"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="css/network88.css"/>
 	</head>
 	<body>
@@ -45,7 +45,7 @@
 			</section>
 			<section>
 				<h3 class="header">Google Play Store availability</h3>
-				<img src="imagines/play-store-new-logo.jpg" alt="google play icon" weight="33px" height="33px"/>
+				<img src="images/play-store.jpg" alt="google play icon" weight="33px" height="33px"/>
 				<p class="text">Network88 will be available in Google Play soon. All relevant information are posted here. Stay tuned!</p>
 			</section>
 			<section>
