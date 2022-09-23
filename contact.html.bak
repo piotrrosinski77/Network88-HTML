@@ -5,7 +5,7 @@
 		<title>Network88 - Write us a message</title>
 		<meta name="description" content="Write a message to the Network88 development team."/>
 		<meta name="keywords" content="Network88, Speedtest, Android, Application, Mobile development, Share your ideas, Idea, Ideas, Contact, Mail, Message"/>
-		<meta name="viewport" content="width=device-width, initial-scale=0.75">
+		<meta name="viewport" content="width=device-width, initial-scale=0.70">
 		<link type="text/css" rel="stylesheet" href="css/network88.css"/>
 	</head>
 	<body>
@@ -32,7 +32,7 @@
 			<h3 class="header">Send email or message through the page</h3>
 			<p class="text">You can use either the form below or you can write an email - just click on the following email adress:</p>
 			<p class="mail">
-				<span class="material-symbols-outlined" id="mail">
+				<span class="material-symbols-outlined">
 				mail
 				</span>
 			<a href="mailto:Network88app@gmail.com">Network88app@gmail.com</a></p>
