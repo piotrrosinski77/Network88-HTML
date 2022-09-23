@@ -251,7 +251,7 @@ textarea {
 
 span.hint {
 	font-size: 18px;
-	color: #000000;
+	color: #FFFFFF;
 	text-shadow: none;
 	opacity: 0.4;
 }

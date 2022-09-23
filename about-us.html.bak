@@ -5,7 +5,7 @@
 		<title>Network88 - About us</title>
 		<meta name="description" content="Information about the author of the app Network88"/>
 		<meta name="keywords" content="Network88, Speedtest, Android, Application, Mobile development, About us, Student project"/>
-		<meta name="viewport" content="width=device-width, initial-scale=0.75">
+		<meta name="viewport" content="width=device-width, initial-scale=0.70">
 		<link type="text/css" rel="stylesheet" href="css/network88.css"/>
 	</head>
 	<body>
@@ -36,7 +36,7 @@
 				<h3 class="header">Network88's repository:</h3>
 				<a class="link" href="https://github.com/piotrrosinski77/Network88-Android" target="_blank">https://github.com/piotrrosinski77/Network88</a>
 				<h3 class="header">Developer:</h3>
-				<img src="images/author_photo.jpg" alt="Photo of the developer" hight="80px" width="80px"/>
+				<img src="images/author_photo.jpg" alt="Photo of the developer" hight="85px" width="85px"/>
 				<p class="name">Piotr Rosiński</p>
 			</section>
 		</article>
