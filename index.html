@@ -18,7 +18,7 @@
 		<article>
 			<section>
 				<ul>
-					<li class="selected"><strong>Main website</strong><span class="hintHere">-  you are here</span></li></br>
+					<li class="selected"><strong>Main website</strong><span class="firstHint">-  you are here</span></li></br>
 					<li><a href="features.html" target="_blank"><strong>Features of the app</strong><span class="hint"> - click to open</span></a></li></br>
 					<li><a href="releases.html" target="_blank"><strong>App releases</strong><span class="hint"> - click to open</span></a></li></br>
 					<li><a href="about-us.html" target="_blank"><strong>About us</strong><span class="hint"> - click to open</span></a></li></br>
@@ -65,8 +65,8 @@
 				var seconds = date.getSeconds();
 				var minutes = date.getMinutes();
 				var hour = date.getHours();
-				var day = date.getDay();
-				var month = date.getMonth();
+				var day = date.getDate();
+				var month = date.getMonth() + 1;
 				var year = date.getFullYear();	
 				
 				if (seconds < 10) 
@@ -84,14 +84,14 @@
 					hour = "0" + hour;
 				}
 				
-				if (day < 10) 
+				if (day < 10)
 				{
 					day = "0" + day;
-				}
-				
-				if (month < 10) 
+				}		
+
+				if (month < 10)
 				{
-					month = "0" + month;
+				month = "0" + month;
 				}
 				
 				document.getElementById('dateAndTime').innerHTML = hour + ":" + minutes + ":" + seconds + " | " + day + "." + month + "." + year;

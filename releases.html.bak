@@ -6,6 +6,7 @@
 		<meta name="description" content="Information about the all releases of the app Network88"/>
 		<meta name="keywords" content="Network88, Speedtest, Android, Application, Mobile development, Releases, Version, Versions"/>
 		<meta name="viewport" content="width=device-width, initial-scale=0.70">
+		<link rel="icon" href="images/wifi_icon_rounded.ico">
 		<link type="text/css" rel="stylesheet" href="css/network88.css"/>
 	</head>
 	<body>
@@ -28,7 +29,7 @@
 				<h3 class="header">Releases</h3>
 				<p class="text">In the table below releases can be found. Each release contains a date and a short description of the changes.</p>
 				<h3 class="header">All releases</h3>
-				<table>
+				<table cellspacing="4">
 					<tr>
 						<th>Release</th><th>Date</th><th>Changes</th>
 					</tr>
@@ -51,7 +52,7 @@
 			<section>
 				<h3 class="header">App Store availability</h3>
 				<img src="images/app-store.jpg" alt="app store icon" weight="33px" height="33px"/>
-				<p class="text">Development of the iOS app hasn't started yet. After Network88 is in Google Play, the work on the iOS app begins.</p> 
+				<p class="text">Development of the iOS app hasn't started yet. After Network88 is available in Google Play, the work on the iOS app begins.</p> 
 			</section>
 		</article>
 		<footer>
