@@ -173,31 +173,32 @@ input.submit {
 }
 
 table {
-	width: 25%;
+	width: 33%;
 	border: 2px solid #FFFFFF;
 	border-collapse: collapse;
 }
 
 th, td {
-	padding: 8px;
 	text-align: left;
 	border: 2px solid #000000;
 }
 
 th {
-	font-size: 18px;
+	font-size: 21px;
 	text-shadow: #FFFFFF 0.1em 0.1em 0.5em;
 	background-color: #75F0F7;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 td {
-	font-size: 16px;
+	font-size: 19px;
 	background-color: #336E7F;
 	text-align:	center;
 }
 
 td.changes {
-	font-size: 16px;
+	font-size: 17px;
 	text-align: left;
 }
 
