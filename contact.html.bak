@@ -43,8 +43,8 @@
 				<form>
 					<input type="text" placeholder="Name" required></br>
 					<input type="email" placeholder="Email" required></br>
-					<textarea placeholder="Write your message..." required></textarea>
-					<input type="submit" value="SEND" class="submit">
+					<textarea placeholder="Write your message..." required></textarea></br>
+					<input type="submit" value="SEND" class="submit"></br>
 				</form>
 			</section>
 		</article>
