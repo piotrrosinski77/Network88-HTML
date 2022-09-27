@@ -20,7 +20,6 @@ header div {
 	font-size: 24px;
 	text-align: center;
 	color: #FFFFFF;
-	text-shadow: Black 0.1em 0.1em 0.4em;
 }
 
 p.title {
@@ -156,49 +155,39 @@ list ul {
 	font-size: 22px;
 }
 
-form input {
-	font-size: 24px;
-	background-color: #75F0F7;
-	width: 400px;
-}
-
-input.submit {
-	font-size: 18px;
-	text-align: center;
-	color: White;
-	background-color: #336E7F;
-	width: 85px;
-    height: 30px;
-	margin-left: auto;
-}
-
 table {
-	width: 33%;
-	border: 2px solid #FFFFFF;
+	width: 40%;
 	border-collapse: collapse;
+	color: #FFFFFF;
 }
 
 th, td {
 	text-align: left;
-	border: 2px solid #000000;
+	border: 2px solid #FFFFFF;
 }
 
 th {
-	font-size: 21px;
-	text-shadow: #FFFFFF 0.1em 0.1em 0.5em;
+	font-size: 22px;
+	color: #000000;
 	background-color: #75F0F7;
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 td {
-	font-size: 19px;
-	background-color: #336E7F;
+	font-size: 20px;
+	background-color: #000000;
 	text-align:	center;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 td.changes {
-	font-size: 17px;
+	font-size: 18px;
 	text-align: left;
 }
 
@@ -244,12 +233,34 @@ p.name {
 	color: #FFFFFF;
 }
 
+form input {
+	font-size: 22px;
+	color: #FFFFFF;
+	background-color: #000000;
+	border-color: #FFFFFF;
+	width: 400px;
+}
+
 textarea {
 	font-family: Arial, Tahoma, sans-serif;
-	font-size: 24px;
-	background-color: #75F0F7;
+	font-size: 22px;
+	color: #FFFFFF;
+	background-color: #000000;
+	border-color: #FFFFFF;
     width: 401px;
     height: 180px;	
+}
+
+input.submit {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	color: #000000;
+	background-color: #75F0F7;
+	border-color: #FFFFFF;
+	width: 85px;
+    height: 30px;
+	margin-left: auto;
 }
 
 footer p {
