@@ -261,6 +261,8 @@ input.submit {
 	width: 85px;
     height: 30px;
 	margin-left: auto;
+	padding-left: auto;
+	padding-right: auto;
 }
 
 footer p {
