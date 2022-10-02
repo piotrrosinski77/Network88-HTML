@@ -39,7 +39,7 @@ sup {
 	font-size: 44px;
 }
 
-h3.header {
+h2.header {
 	font-size: 24px;
 	text-shadow: White 0.1em 0.1em 0.5em;
 }
@@ -121,7 +121,7 @@ nav ul li a:active {
 	text-shadow: White 0.1em 0.1em 0.2em;
 }
 
-article section ul li a {
+main section ul li a {
 	text-decoration: none;
 	text-shadow: White 0.1em 0.1em 0.2em;
 	color: #111111;
@@ -129,18 +129,18 @@ article section ul li a {
 	letter-spacing: 1px;
 }
 
-article li.selected {
+main li.selected {
 	color: #FFFFFF;
 	text-shadow: Black 0.1em 0.1em 0.2em;
 	font-size: 24px;
 	letter-spacing: 1px;
 }
 
-article ul li a:hover {
+main ul li a:hover {
 	text-decoration: underline;
 }
 
-article ul li a:active {
+main ul li a:active {
 	text-decoration: underline;
 	color: White;
 	text-shadow: Black 0.1em 0.1em 0.2em;
@@ -261,6 +261,8 @@ input.submit {
 	width: 85px;
     height: 30px;
 	margin-left: auto;
+	padding-left: auto;
+	padding-right: auto;
 }
 
 footer p {
