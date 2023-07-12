@@ -13,7 +13,7 @@ body {
 
 header div {
 	font-family: 'VT323', monospace;
-	font-size: 24px;
+	font-size: 18px;
 	text-align: center;
 	color: #ffffff;
 }
@@ -26,7 +26,7 @@ p.title {
 	color: #ffffff;
 	background-color: #336e7f;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 22px;
+	font-size: 14px;
 	font-weight: bold;
 	text-shadow: White 0.1em 0.1em 0.5em;
 	letter-spacing: 4px;
@@ -91,8 +91,8 @@ nav ul li {
 	font-size: 18px;
 	display: inline;
 	border-right: 2px solid #111111;
-	padding-right: 8px;
-	padding-left: 8px;
+	padding-right: 4px;
+	padding-left: 4px;
 }
 
 nav ul li.selected {
@@ -258,6 +258,11 @@ input.submit {
 	border-color: #ffffff;
 	width: 90px;
 	height: 35px;
+}
+
+hr {
+	margin-top: 10px;
+	border: 1px dashed #000000;
 }
 
 footer p {
