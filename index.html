@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=VT323&display=swap" rel="stylesheet">
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE-edge" />
 		<title>Network88 - Your way to check the speed!</title>
 		<meta name="author" content="Piotr Rosiński" />
 		<meta
 			name="description"
-			content="Network88 website. New android app is ready to test your Internet connection, check it out right now!"
+			content="Network88 website.The new android app is ready to test your Internet connection, check it out right now!"
 		/>
 		<meta
 			name="keywords"
@@ -16,8 +19,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=0.65" />
 		<link rel="icon" href="images/wifi_icon_rounded.ico" />
 		<link type="text/css" rel="stylesheet" href="css/network88.css" />
-	</head>
-
+		<script src="js/Date.js"></script>
+		<script src="js/SwapIcon.js"></script>
 	<body onload="swapImages(), showDateAndTime()">
 		<header>
 			<div id="dateAndTime">
@@ -30,8 +33,6 @@
 					id="wifi-animation"
 					src="images/wifi_icon.png"
 					alt="Network88 icon"
-					height="320px"
-					width="380px"
 					border="2px"
 				/>
 			</h1>
@@ -74,87 +75,7 @@
 				</ul>
 			</section>
 		</main>
-		<script>
-			function swapIcon1() {
-				var imageDisplayed1 = document.getElementById('wifi-animation');
-				imageDisplayed1.src = 'images/wifi_icon1.png';
-				setTimeout('swapIcon1()', 1000);
-			}
-
-			function swapIcon2() {
-				var imageDisplayed2 = document.getElementById('wifi-animation');
-				imageDisplayed2.src = 'images/wifi_icon2.png';
-				setTimeout('swapIcon2()', 1400);
-			}
-
-			function swapIcon3() {
-				var imageDisplayed3 = document.getElementById('wifi-animation');
-				imageDisplayed3.src = 'images/wifi_icon3.png';
-				setTimeout('swapIcon3()', 2600);
-			}
-
-			function swapIcon4() {
-				var imageDisplayed4 = document.getElementById('wifi-animation');
-				imageDisplayed4.src = 'images/wifi_icon.png';
-				setTimeout('swapIcon4()', 3200);
-			}
-
-			function swapImages() {
-				swapIcon1();
-				swapIcon2();
-				swapIcon3();
-				swapIcon4();
-			}
-
-			function showDateAndTime() {
-				var date = new Date();
-
-				var seconds = date.getSeconds();
-				var minutes = date.getMinutes();
-				var hour = date.getHours();
-				var day = date.getDate();
-				var month = date.getMonth() + 1;
-				var year = date.getFullYear();
-
-				if (seconds < 10) {
-					seconds = '0' + seconds;
-				}
-
-				if (minutes < 10) {
-					minutes = '0' + minutes;
-				}
-
-				if (hour < 10) {
-					hour = '0' + hour;
-				}
-
-				if (day < 10) {
-					day = '0' + day;
-				}
-
-				if (month < 10) {
-					month = '0' + month;
-				}
-
-				document.getElementById('dateAndTime').innerHTML =
-					hour +
-					':' +
-					minutes +
-					':' +
-					seconds +
-					' | ' +
-					day +
-					'.' +
-					month +
-					'.' +
-					year;
-
-				setTimeout('showDateAndTime()', 1000);
-			}
-		</script>
-		<br />
-		<br />
-		<br />
+		<hr />
 		<footer>
 			<p class="copyright">© 2022 Network88. All rights reserved.</p>
 			<p class="contact">
