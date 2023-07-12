@@ -44,6 +44,8 @@ h2.header {
 }
 
 img.wifi_icon {
+	height: 50%;
+	width: 50%;
 	border-radius: 40px 120px;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -255,6 +257,11 @@ input.submit {
 	border-color: #ffffff;
 	width: 90px;
 	height: 35px;
+}
+
+hr {
+	margin-top: 3em;
+	border: 1px dashed #000000;
 }
 
 footer p {
