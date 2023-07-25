@@ -255,10 +255,27 @@ input.submit {
 	text-align: center;
 	color: #000000;
 	background-color: #75f0f7;
+	cursor: pointer;
 	border-color: #ffffff;
 	min-width: 320px;
 	width: 40%;
 	height: 35px;
+	transition: 0.3s;
+	border-radius: 30px;
+}
+
+input.submit:hover {
+	background-color: #fff;
+	box-shadow: 0 0 5px white;
+}
+
+a.downloadBtn {
+	color: #fff;
+	text-decoration: none;
+}
+
+a.downloadBtn:hover {
+	color: blue;
 }
 
 hr {
